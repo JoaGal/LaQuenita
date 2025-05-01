@@ -1,7 +1,7 @@
 import React from "react";
 import lands from "../../../data/lands";
 
-export const LandsSlot = ({ box, start, end, oneFile, setLands }) => {
+export const LandSlot = ({ box, start, end, oneFile, setLands }) => {
   const handleClick = (land) => {
     if (land.sale) {
       setLands(land);

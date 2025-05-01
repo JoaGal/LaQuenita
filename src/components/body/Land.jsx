@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import image from "../../images/map/map0.png";
 import { Segments } from "./components/Segments";
-import { LandsSlot } from "./components/landsSlot";
+import { LandSlot } from "./components/LandSlot";
 import { LandCar } from "./components/LandCar";
 
 export const Land = () => {
@@ -18,22 +18,22 @@ export const Land = () => {
           <div className="containerLand">
             <div className="boxLand">
               {/* Sector A */}
-              <LandsSlot box="boxSector" start={173} end={196} setLands={setLands}/>
-              <LandsSlot box="boxSector" start={149} end={172} setLands={setLands}/>
+              <LandSlot box="boxSector" start={173} end={196} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector" start={149} end={172} oneFile={false} setLands={setLands}/>
               {/* Sector Vacio */}
               <div></div>
               {/* Sector B */}
-              <LandsSlot box="boxSector" start={126} end={147} setLands={setLands}/>
-              <LandsSlot box="boxSector" start={104} end={125} setLands={setLands}/>
-              <LandsSlot box="boxSector alone" start={93} end={103} oneFile={true} setLands={setLands}/>
+              <LandSlot box="boxSector" start={126} end={147} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector" start={104} end={125} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector alone" start={93} end={103} oneFile={true} setLands={setLands}/>
               {/* Sector D */}
-              <LandsSlot box="boxSector" start={283} end={306} setLands={setLands}/>
-              <LandsSlot box="boxSector" start={259} end={282} setLands={setLands}/>
-              <LandsSlot box="boxSector alone" start={247} end={258} oneFile={true} setLands={setLands}/>
+              <LandSlot box="boxSector" start={283} end={306} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector" start={259} end={282} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector alone" start={247} end={258} oneFile={true} setLands={setLands}/>
               {/* Sector C */}
-              <LandsSlot box="boxSector" start={227} end={246} setLands={setLands}/>
-              <LandsSlot box="boxSector" start={207} end={226} setLands={setLands}/>
-              <LandsSlot box="boxSector alone" start={197} end={206} oneFile={true} setLands={setLands}/>
+              <LandSlot box="boxSector" start={227} end={246} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector" start={207} end={226} oneFile={false} setLands={setLands}/>
+              <LandSlot box="boxSector alone" start={197} end={206} oneFile={true} setLands={setLands}/>
             </div>
           </div>
           {lands && <LandCar land={lands} setLands={setLands}/>}
