@@ -18,7 +18,7 @@ function App() {
         <ul className="actions">
           <li>
             <a
-              href="#header"
+              href="#land"
               className="button icon solid solo fa-arrow-down scrolly"
             >
               Continue
@@ -26,11 +26,11 @@ function App() {
           </li>
         </ul>
       </div>
-      <header id="header">
+      {/* <header id="header">
         <Link href="index.html" className="logo">
           La Quenita
         </Link>
-      </header>
+      </header> */}
       <NavBar />
       <Body />
       <SendMessage />
