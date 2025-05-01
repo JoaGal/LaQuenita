@@ -9,7 +9,7 @@ export const LandsSlot = ({ box, start, end, oneFile, setLands }) => {
   };
 
   return (
-    <div class={box}>
+    <div className={box}>
       {(() => {
         const landsFiltered = lands.filter(
           (land) => land.id >= start && land.id <= end

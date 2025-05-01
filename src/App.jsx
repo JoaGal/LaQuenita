@@ -9,17 +9,17 @@ function App() {
     <>
       <div id="intro">
         {/* <h1>La Quenita</h1> */}
-        <img src={Logo} alt="logo" class="logo" />
+        <img src={Logo} alt="logo" className="logo" />
         <p>
           Loteo abierto en zona tranquila, con naturaleza y acceso directo.{" "}
           <br /> A 15km de la plaza 25 de Mayo. Con las mejores financiaciones y
           cuotas.{" "}
         </p>
-        <ul class="actions">
+        <ul className="actions">
           <li>
             <a
               href="#header"
-              class="button icon solid solo fa-arrow-down scrolly"
+              className="button icon solid solo fa-arrow-down scrolly"
             >
               Continue
             </a>
@@ -27,7 +27,7 @@ function App() {
         </ul>
       </div>
       <header id="header">
-        <Link href="index.html" class="logo">
+        <Link href="index.html" className="logo">
           La Quenita
         </Link>
       </header>

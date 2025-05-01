@@ -8,15 +8,15 @@ export const Land = () => {
   const [lands, setLands] = useState();
   return (
     <>
-      <section class="post featured" id="land">
-        <header class="major">
-          {/* <span class="date">La Quenita</span> */}
+      <section className="post featured" id="land">
+        <header className="major">
+          {/* <span className="date">La Quenita</span> */}
           <h2>Terrenos</h2>
           <p>Seleccionar el lote para obtener mas informacion del mismo.</p>
         </header>
-        <div class="image main">
-          <div class="containerLand">
-            <div class="boxLand">
+        <div className="image main">
+          <div className="containerLand">
+            <div className="boxLand">
               {/* Sector A */}
               <LandsSlot box="boxSector" start={173} end={196} setLands={setLands}/>
               <LandsSlot box="boxSector" start={149} end={172} setLands={setLands}/>

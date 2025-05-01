@@ -4,9 +4,9 @@ import location from "../../images/map/location.webp";
 export const Location = () => {
   return (
     <>
-      <section class="post featured" id="location">
-        <header class="major">
-          {/* <span class="date">La Quenita</span> */}
+      <section className="post featured" id="location">
+        <header className="major">
+          {/* <span className="date">La Quenita</span> */}
           <h2>Ubicacion</h2>
           <p>
             Loteo de 214 terrenos, estratégicamente ubicado sobre la Autopista
@@ -20,13 +20,13 @@ export const Location = () => {
         <a
           href="https://www.google.com/maps/search/?api=1&query=-27.3796136,-59.0493142"
           target="_blank"
-          class="image main"
+          className="image main"
         >
           <img src={location} alt="La Quenita location" />
         </a>
-        <ul class="actions special">
+        <ul className="actions special">
           <li>
-            <a href="#land" class="button large">
+            <a href="#land" className="button large">
               Ver más
             </a>
           </li>

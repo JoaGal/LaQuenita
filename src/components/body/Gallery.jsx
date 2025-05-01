@@ -6,59 +6,59 @@ import sky2 from "../../images/real/sky2.webp";
 import sky3 from "../../images/real/sky3.webp";
 export const Gallery = () => {
   return (
-    <section class="post featured" id="gallery">
-      <header class="major">
+    <section className="post featured" id="gallery">
+      <header className="major">
         <h2>Galeria</h2>
       </header>
-      <span class="image fit">
+      <span className="image fit">
         <img src={sky} alt="La Quenita" />
       </span>
-      <div class="box alt">
-        <div class="row gtr-50 gtr-uniform">
-          <div class="col-4">
-            <span class="image fit">
+      <div className="box alt">
+        <div className="row gtr-50 gtr-uniform">
+          <div className="col-4">
+            <span className="image fit">
               <img src={sky} alt="Loteo La Quenita" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src={sky0} alt="Loteo La Quenita" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src={sky1} alt="Loteo La Quenita" />
             </span>
           </div>
 
-          {/* <div class="col-4">
-            <span class="image fit">
+          {/* <div className="col-4">
+            <span className="image fit">
               <img src="images/pic04.jpg" alt="" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src="images/pic02.jpg" alt="" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src="images/pic03.jpg" alt="" />
             </span>
           </div>
 
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src="images/pic03.jpg" alt="" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src="images/pic04.jpg" alt="" />
             </span>
           </div>
-          <div class="col-4">
-            <span class="image fit">
+          <div className="col-4">
+            <span className="image fit">
               <img src="images/pic02.jpg" alt="" />
             </span>
           </div> */}
@@ -68,7 +68,7 @@ export const Gallery = () => {
       <hr />
       <h3>La Quenita</h3>
       <p>
-        <span class="image left">
+        <span className="image left">
           <img src={sky2} alt="" />
         </span>
         Este loteo de 214 terrenos sobre la Autopista Ruta 16, km 23,5 (Tercer
@@ -83,7 +83,7 @@ export const Gallery = () => {
         constante de los terrenos con el paso del tiempo.
       </p>
       <p>
-        <span class="image right">
+        <span className="image right">
           <img src={sky3} alt="" />
         </span>
         Además, los terrenos ya cuentan con todas las obras de infraestructura
