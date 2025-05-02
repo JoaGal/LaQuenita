@@ -1,5 +1,6 @@
 import React from "react";
 import location from "../../images/map/location.webp";
+import locationMobile from "../../images/map/location0.webp";
 
 export const Location = () => {
   return (
@@ -22,7 +23,8 @@ export const Location = () => {
           target="_blank"
           className="image main"
         >
-          <img src={location} alt="La Quenita location" />
+          <img src={location} alt="La Quenita location" className="map" />
+          <img src={locationMobile} alt="La Quenita location" className="map mobile" />
         </a>
         <ul className="actions special">
           <li>
