@@ -193,7 +193,7 @@ html {
 	box-sizing: inherit;
 }
 
-.background {
+/* .background {
 	background-image: url('../../images/bg.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -204,8 +204,8 @@ html {
 	width: 100vw;
 	height: 100vh;
 	z-index: -1;
-  }
-/* body {
+  } */
+body {
 	height: 100vh;
 	background-image: url('../../images/bg.webp');
 	background-size: cover;
@@ -216,9 +216,9 @@ html {
 
 @media screen and (max-width: 768px) {
 	body {
-		background-attachment: scroll;
+		background-attachment: none;
 	}
-} */
+}
 
 body.is-preload *,
 body.is-preload *:before,
