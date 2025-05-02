@@ -35,7 +35,11 @@ export const SendMessage = () => {
       <section className="split contact">
         <section className="alt">
           <h3>Direccion</h3>
-          <p>Autopista Ruta 16, km 23,5 (Tercer Retorno).</p>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&query=-27.3796136,-59.0493142" target="_blank">
+              Autopista Ruta 16, km 23,5 (Tercer Retorno).
+            </a>
+          </p>
         </section>
         <section>
           <h3>Numero</h3>
@@ -47,7 +51,11 @@ export const SendMessage = () => {
         </section>
         <section>
           <h3>Email</h3>
-          <p>laquenita@gmail.com</p>
+          <p>
+            <a href="mailto:laquenitaloteos@gmail.com" target="_blank">
+              laquenitaloteos@gmail.com
+            </a>
+          </p>
         </section>
         <section>
           <h3>Redes</h3>
