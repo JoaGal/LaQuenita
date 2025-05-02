@@ -1,4 +1,5 @@
 import React from "react";
+import vid from '../../images/LaQuenita.mp4';
 import sky from "../../images/real/sky.webp";
 import sky0 from "../../images/real/sky0.webp";
 import sky1 from "../../images/real/sky1.webp";
@@ -11,10 +12,10 @@ export const Gallery = () => {
         <h2>Galeria</h2>
       </header>
       <span className="image fit">
-        <img src={sky} alt="La Quenita" />
+        <video src={vid} controls className="video" />
       </span>
       <div className="box alt">
-        <div className="row gtr-50 gtr-uniform">
+        <div className="row gtr-25 gtr-uniform">
           <div className="col-4">
             <span className="image fit">
               <img src={sky} alt="Loteo La Quenita" />
@@ -30,46 +31,19 @@ export const Gallery = () => {
               <img src={sky1} alt="Loteo La Quenita" />
             </span>
           </div>
-
-          {/* <div className="col-4">
+          <div className="col-4 mobile">
             <span className="image fit">
-              <img src="images/pic04.jpg" alt="" />
+            <img src={sky3} alt="Loteo La Quenita" />
             </span>
           </div>
-          <div className="col-4">
-            <span className="image fit">
-              <img src="images/pic02.jpg" alt="" />
-            </span>
-          </div>
-          <div className="col-4">
-            <span className="image fit">
-              <img src="images/pic03.jpg" alt="" />
-            </span>
-          </div>
-
-          <div className="col-4">
-            <span className="image fit">
-              <img src="images/pic03.jpg" alt="" />
-            </span>
-          </div>
-          <div className="col-4">
-            <span className="image fit">
-              <img src="images/pic04.jpg" alt="" />
-            </span>
-          </div>
-          <div className="col-4">
-            <span className="image fit">
-              <img src="images/pic02.jpg" alt="" />
-            </span>
-          </div> */}
         </div>
       </div>
 
-      <hr />
+     
       <h3>La Quenita</h3>
       <p>
         <span className="image left">
-          <img src={sky2} alt="" />
+          <img src={sky2} alt="Loteo La Quenita" />
         </span>
         Este loteo de 214 terrenos sobre la Autopista Ruta 16, km 23,5 (Tercer
         Retorno), es una excelente oportunidad para invertir en una zona con
@@ -84,7 +58,7 @@ export const Gallery = () => {
       </p>
       <p>
         <span className="image right">
-          <img src={sky3} alt="" />
+          <img src={sky3} alt="Loteo La Quenita" />
         </span>
         Además, los terrenos ya cuentan con todas las obras de infraestructura
         necesarias: red eléctrica instalada, alumbrado público en
