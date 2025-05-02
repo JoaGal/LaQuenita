@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import image from "../../images/map/map0.png";
-import { Segments } from "./components/Segments";
+import map from "../../images/map/map0.webp";
+import mapMobile from "../../images/map/map.webp";
+// import { Segments } from "./components/Segments";
 import { LandSlot } from "./components/LandSlot";
 import { LandCar } from "./components/LandCar";
 
@@ -37,7 +38,8 @@ export const Land = () => {
             </div>
           </div>
           {lands && <LandCar land={lands} setLands={setLands}/>}
-          <img src={image} alt="" />
+          <img src={map} alt="La Quenita" className="map"/>
+          <img src={mapMobile} alt="La Quenita" className="map mobile"/>
         </div>
       </section>
       {/* <Segments /> */}
