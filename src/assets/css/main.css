@@ -3144,6 +3144,17 @@ header.major>.date:after {
 		display: none;
 	}
 
+	ul.icons li .icon:before {
+		width: 2.25rem;
+		height: 2.25rem;
+		line-height: auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		border-radius: 100%;
+		font-size: 1.5rem;
+	}
+
 }
 
 @media screen and (max-width: 736px) {
@@ -3754,8 +3765,8 @@ body.is-preload #wrapper.fade-in:before {
 		border: solid 2px #eeeeee;
 		border-radius: 50rem;
 		flex-direction: row;
-		height: 45px;
-		width: 45px;
+		height: 40px;
+		width: 40px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
