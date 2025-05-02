@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const SendMessage = () => {
   return (
     <footer id="footer">
-      <section>
+      {/* <section>
         <form method="POST" action="https://formspree.io/f/xvgakgwj">
           <div className="fields">
             <div className="field">
@@ -31,7 +31,7 @@ export const SendMessage = () => {
             </li>
           </ul>
         </form>
-      </section>
+      </section> */}
       <section className="split contact">
         <section className="alt">
           <h3>Direccion</h3>
