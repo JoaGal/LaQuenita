@@ -3003,12 +3003,7 @@ a.image:hover img {
 		margin: 0;
 	}
 
-	.closeButton {
-		top: 0.5rem;
-		right: 0.5em;
-		cursor: pointer;
-		font-size: 1rem;
-	}
+	
 
 	a.button{
 		font-size: 0.8rem;
