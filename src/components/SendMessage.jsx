@@ -5,24 +5,29 @@ export const SendMessage = () => {
   return (
     <footer id="footer">
       <section>
-        <form method="post" action="#">
+        <form method="POST" action="https://formspree.io/f/xvgakgwj">
           <div className="fields">
             <div className="field">
-              <label for="name">Nombre</label>
-              <input type="text" name="name" id="name" />
+              <label htmlFor="name">Nombre</label>
+              <input type="text" name="name" id="name" required />
             </div>
             <div className="field">
-              <label for="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <label htmlFor="email">Email</label>
+              <input type="email" name="email" id="email" required />
             </div>
             <div className="field">
-              <label for="message">Mensaje</label>
-              <textarea name="message" id="message" rows="3"></textarea>
+              <label htmlFor="message">Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="3"
+                required
+              ></textarea>
             </div>
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" />
+              <button type="submit">Enviar mensaje</button>
             </li>
           </ul>
         </form>
@@ -30,44 +35,58 @@ export const SendMessage = () => {
       <section className="split contact">
         <section className="alt">
           <h3>Direccion</h3>
-          <p>
-            Autopista Ruta 16, km 23,5 (Tercer Retorno).
-          </p>
+          <p>Autopista Ruta 16, km 23,5 (Tercer Retorno).</p>
         </section>
         <section>
           <h3>Numero</h3>
           <p>
-            <Link href="tel:+543624712344">+54 3624 712344</Link>
+            <a href="https://wa.me/543624712344" target="_blank">
+              +54 3624 712344
+            </a>
           </p>
         </section>
         <section>
           <h3>Email</h3>
-          <p>
-            laquenita@gmail.com
-          </p>
+          <p>laquenita@gmail.com</p>
         </section>
         <section>
           <h3>Redes</h3>
           <ul className="icons alt">
             <li>
-              <Link href="#" className="icon brands alt fa-twitter">
-                <span className="label">Twitter</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="icon brands alt fa-facebook-f">
+              <a
+                href="https://www.facebook.com/profile.php?id=61575569984411"
+                className="icon brands fa-facebook-f"
+                target="_blank"
+              >
                 <span className="label">Facebook</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="https://www.instagram.com/laquenita_" className="icon brands alt fa-instagram">
+              <a
+                href="https://www.instagram.com/laquenita_"
+                className="icon brands fa-instagram"
+                target="_blank"
+              >
                 <span className="label">Instagram</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="#" className="icon brands alt fa-github">
-                <span className="label">GitHub</span>
-              </Link>
+              <a
+                href="https://wa.me/543624712344"
+                className="icon brands fa-whatsapp"
+                target="_blank"
+              >
+                <span className="label">WhatsApp</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:laquenitaloteos@gmail.com"
+                className="icon solid fa-envelope"
+                target="_blank"
+              >
+                <span className="label">Email</span>
+              </a>
             </li>
           </ul>
         </section>

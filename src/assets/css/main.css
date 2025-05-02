@@ -3054,6 +3054,7 @@ ul.icons li .icon:before {
 	text-align: center;
 	border-radius: 100%;
 	font-size: 1.25rem;
+	color:#909498;
 }
 
 ul.icons.alt li .icon:before {
@@ -3161,6 +3162,7 @@ header.major>.date:after {
 		text-align: center;
 		border-radius: 100%;
 		font-size: 1.5rem;
+		
 	}
 
 }
@@ -3390,14 +3392,13 @@ body.is-preload #wrapper.fade-in:before {
 		margin-top: 0rem;
 	}
 
-
-
 	.logo {
 		width: 80%;
 		max-width: 50rem;
 	}
 
 }
+
 
 /* Header */
 

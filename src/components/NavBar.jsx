@@ -50,12 +50,17 @@ export const NavBar = () => {
 
         <ul className="icons">
           <li>
-            <a href="#" className="icon brands fa-facebook-f">
+            <a
+              href="https://www.facebook.com/profile.php?id=61575569984411"
+              className="icon brands fa-facebook-f"
+              target="_blank"
+            >
               <span className="label">Facebook</span>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/laquenita_"
+            <a
+              href="https://www.instagram.com/laquenita_"
               className="icon brands fa-instagram"
               target="_blank"
             >
@@ -63,12 +68,20 @@ export const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="https://wa.me/543624712344" className="icon brands fa-whatsapp">
-              <span className="label">GitHub</span>
+            <a
+              href="https://wa.me/543624712344"
+              className="icon brands fa-whatsapp"
+              target="_blank"
+            >
+              <span className="label">WhatsApp</span>
             </a>
           </li>
           <li>
-            <a href="#message" className="icon solid fa-envelope">
+            <a
+              href="mailto:laquenitaloteos@gmail.com"
+              className="icon solid fa-envelope"
+              target="_blank"
+            >
               <span className="label">Email</span>
             </a>
           </li>
