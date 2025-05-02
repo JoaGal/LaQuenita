@@ -2846,11 +2846,12 @@ a.image:hover img {
 	border: 1px dashed #d1d1d1;
 	background: #1abc22b3;
 	border-radius: 2%;
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 10px;
 	color: #fff;
 	cursor: pointer;
 	background: #1abc2280;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.2);
 	/* box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.679), 0 4px 8px rgba(255, 255, 255, 0.531); */
 	transition: all 0.2s ease;
@@ -2909,7 +2910,7 @@ a.image:hover img {
 	}
 
 	.land {
-		font-size: 5px;
+		font-size: 6px;
 		line-height: 5px;
 	}
 
@@ -2940,7 +2941,7 @@ a.image:hover img {
 .cardLandContent {
 	background: #fff;
 	padding: 2rem;
-	border-radius: 12px;
+	border-radius: 2px;
 	max-width: 400px;
 	width: 100%;
 	position: relative;
@@ -2955,7 +2956,6 @@ a.image:hover img {
 .landCard h2 {
 	margin-bottom: 1rem;
 	font-size: 1.8rem;
-
 }
 
 .landDetails p {
@@ -2965,7 +2965,6 @@ a.image:hover img {
 .description {
 	margin-top: 1rem;
 	font-style: italic;
-
 }
 
 .landStatus.available {
@@ -2984,6 +2983,42 @@ a.image:hover img {
 	right: 1rem;
 	cursor: pointer;
 	font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1280px) {
+	
+	.cardLandContent {
+		padding: 1rem;
+		border-radius: 2px;
+		max-width: 80%;
+		max-height: 90%;
+		line-height: 2rem;
+	}
+
+	.landCard h2 {
+		margin-bottom: 0.5rem;
+		font-size: 1.5rem;
+	}
+
+	.landDetails p {
+		margin: 0;
+	}
+
+	.closeButton {
+		top: 0.5rem;
+		right: 0.5em;
+		cursor: pointer;
+		font-size: 1rem;
+	}
+
+	a.button{
+		font-size: 0.8rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		padding: 0 1.5rem;
+	}
+	
+
 }
 
 /*! Icons */
