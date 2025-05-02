@@ -7,6 +7,7 @@ import Logo from "./images/svg/Logo.svg";
 function App() {
   return (
     <>
+    <div className="background"></div>
       <div id="intro">
         {/* <h1>La Quenita</h1> */}
         <img src={Logo} alt="logo" className="logo" />
