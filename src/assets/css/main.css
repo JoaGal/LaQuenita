@@ -204,7 +204,8 @@ html {
 	width: 100vw;
 	height: 100vh;
 	z-index: -1;
-  } */
+} */
+
 body {
 	height: 100vh;
 	background-image: url('../../images/bg.webp');
@@ -212,13 +213,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-}
+}* 
 
-@media screen and (max-width: 768px) {
-	body {
-		background-attachment: none;
-	}
-}
 
 body.is-preload *,
 body.is-preload *:before,
@@ -3234,14 +3230,6 @@ body.is-preload #wrapper.fade-in:before {
 	opacity: 1;
 }
 
-@media screen and (orientation: portrait) {
-
-	#wrapper>.bg {
-		background-size: auto, auto, auto 175%;
-	}
-
-}
-
 /*! Intro */
 
 #intro {
@@ -3393,7 +3381,8 @@ body.is-preload #wrapper.fade-in:before {
 
 
 	.logo {
-		width: 20rem;
+		width: 80%;
+		max-width: 50rem;
 	}
 
 }
