@@ -193,7 +193,7 @@ html {
 	box-sizing: inherit;
 }
 
-/* .background {
+.background {
 	background-image: url('../../images/bg.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -204,16 +204,16 @@ html {
 	width: 100vw;
 	height: 100vh;
 	z-index: -1;
-} */
+}
 
-body {
+/* body {
 	height: 100vh;
 	background-image: url('../../images/bg.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-}* 
+} */
 
 
 body.is-preload *,
@@ -3371,26 +3371,12 @@ body.is-preload #wrapper.fade-in:before {
 @media screen and (max-width: 980px) {
 
 	#intro {
-		padding: 4rem 4rem 2rem 4rem;
+		padding: 3rem 1rem 1rem 1rem;
 		justify-content: center;
 	}
 
 	#intro p br {
 		display: none;
-	}
-
-
-	.logo {
-		width: 80%;
-		max-width: 50rem;
-	}
-
-}
-
-@media screen and (max-width: 736px) {
-
-	#intro {
-		padding: 3rem 2rem 1rem 2rem;
 	}
 
 	#intro h1 {
@@ -3402,6 +3388,13 @@ body.is-preload #wrapper.fade-in:before {
 	#intro p {
 		font-size: 1rem;
 		margin-top: 0rem;
+	}
+
+
+
+	.logo {
+		width: 80%;
+		max-width: 50rem;
 	}
 
 }
