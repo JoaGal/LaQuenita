@@ -37,13 +37,13 @@ export const NavBar = () => {
           />
         )}
         <ul className={`links ${menuOpen ? "mobile" : ""}`}>
-          <li className="active">
-            <a href="#land">Terrenos</a>
+          <li className="active" onClick={() => setMenuOpen(false)}>
+            <a href="#land ">Terrenos</a>
           </li>
-          <li>
-            <a href="#location">Ubicacion</a>
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="#location" >Ubicacion</a>
           </li>
-          <li>
+          <li onClick={() => setMenuOpen(false)}>
             <a href="#gallery">Galeria</a>
           </li>
         </ul>
