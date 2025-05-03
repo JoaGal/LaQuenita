@@ -3405,8 +3405,8 @@ body.is-preload #wrapper.fade-in:before {
 	}
 
 	.logo {
-		width: 80%;
-		max-width: 50rem;
+		/* width: 75%; */
+		max-width: 80%;
 	}
 
 }
