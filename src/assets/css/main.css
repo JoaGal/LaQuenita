@@ -3038,7 +3038,6 @@ a.image:hover img {
 		padding: 0 1.5rem;
 	}
 
-
 }
 
 /*! Icons */
@@ -3805,6 +3804,9 @@ body.is-preload #wrapper.fade-in:before {
 		display: none !important;
 	}
 
+	li.last{
+		margin-bottom: 2rem;
+	}
 
 }
 
@@ -3858,6 +3860,9 @@ body.is-preload #wrapper.fade-in:before {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
+	/* background-image: url(../../images/real/sky.webp);
+	background-size: cover;
+	background-position: center; */
 }
 
 @media screen and (max-width: 736px) {

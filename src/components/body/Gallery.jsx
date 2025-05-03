@@ -12,7 +12,7 @@ export const Gallery = () => {
         <h2>Galeria</h2>
       </header>
       <span className="image fit">
-        <video src={vid} controls className="video" />
+        <video src={vid} controls autoplay muted className="video" />
       </span>
       <div className="box alt">
         <div className="row gtr-25 gtr-uniform">

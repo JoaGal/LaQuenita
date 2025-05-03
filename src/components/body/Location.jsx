@@ -27,7 +27,7 @@ export const Location = () => {
           <img src={locationMobile} alt="La Quenita location" className="map mobile" />
         </a>
         <ul className="actions special">
-          <li>
+          <li className="last">
             <a href="#land" className="button large">
               Ver más
             </a>
