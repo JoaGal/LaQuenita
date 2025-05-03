@@ -3406,6 +3406,7 @@ body.is-preload #wrapper.fade-in:before {
 
 	.logo {
 		/* width: 75%; */
+		width: auto;
 		max-width: 80%;
 	}
 
