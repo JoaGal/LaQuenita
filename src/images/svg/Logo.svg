@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 550 1800 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 550 1800 600">
   <defs>
     <style>
       .cls-1 {
@@ -26,11 +26,8 @@
     </style>
   </defs>
   <text class="cls-2" transform="translate(118.04 1073.19)">
-    <tspan x="0" y="0">L</tspan>
-    <tspan class="cls-4" x="183.25" y="0">A</tspan>
-    <tspan x="383.35" y="0" xml:space="preserve"> QUENI</tspan>
-    <tspan class="cls-3" x="1391.46" y="0">T</tspan>
-    <tspan class="cls-4" x="1550.68" y="0">A</tspan>
+    <tspan x="0" y="0">LA</tspan>
+    <tspan x="465" y="0">QUENITA</tspan>
   </text>
   <path class="cls-1" d="m321.94,814.62c452.04-.98,904.08-1.97,1356.12-2.95"/>
   <polyline class="cls-5" points="983.3 808.38 950.54 760.21 999.73 602.84 1049.46 761.49 1010.28 808.38 1000 808.38 1000 651.88 969.29 758.22 996.79 808.38"/>
