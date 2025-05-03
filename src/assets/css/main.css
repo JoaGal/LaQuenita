@@ -3860,9 +3860,9 @@ body.is-preload #wrapper.fade-in:before {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-	/* background-image: url(../../images/real/sky.webp);
+	background-image: url(../../images/real/sky.webp);
 	background-size: cover;
-	background-position: center; */
+	background-position: center;
 }
 
 @media screen and (max-width: 736px) {
