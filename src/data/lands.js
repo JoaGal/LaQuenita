@@ -100,7 +100,7 @@ const lands = [
     sup: "600,25 m²",
     dimension: "35m x 17,15m",
     description: "Informacion del loteo zona oeste",
-    sale: true,
+    sale: false,
     zone: "B",
   },
   {
@@ -444,7 +444,7 @@ const lands = [
     sup: "600,00 m²",
     dimension: "40m x 15m",
     description: "Informacion del loteo zona noreste",
-    sale: true,
+    sale: false,
     zone: "A",
   },
   {
@@ -580,7 +580,7 @@ const lands = [
     sup: "600,00 m²",
     dimension: "40m x 15m",
     description: "Informacion del loteo zona noreste",
-    sale: true,
+    sale: false,
     zone: "A",
   },
   {
@@ -588,7 +588,7 @@ const lands = [
     sup: "600,00 m²",
     dimension: "40m x 15m",
     description: "Informacion del loteo zona noreste",
-    sale: true,
+    sale: false,
     zone: "A",
   },
   {
@@ -596,7 +596,7 @@ const lands = [
     sup: "600,00 m²",
     dimension: "40m x 15m",
     description: "Informacion del loteo zona noreste",
-    sale: true,
+    sale: false,
     zone: "A",
   },
   {
@@ -612,7 +612,7 @@ const lands = [
     sup: "600,00 m²",
     dimension: "40m x 15m",
     description: "Informacion del loteo zona noreste",
-    sale: true,
+    sale: false,
     zone: "A",
   },
   {
@@ -1084,7 +1084,7 @@ const lands = [
     sup: "600,25 m²",
     dimension: "35m x 17,15m",
     description: "Informacion del loteo zona sureste",
-    sale: true,
+    sale: false,
     zone: "C",
   },
   {
@@ -1092,7 +1092,7 @@ const lands = [
     sup: "600,25 m²",
     dimension: "35m x 17,15m",
     description: "Informacion del loteo zona sureste",
-    sale: true,
+    sale: false,
     zone: "C",
   },
   {
