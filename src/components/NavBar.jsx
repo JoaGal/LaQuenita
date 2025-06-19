@@ -69,7 +69,7 @@ export const NavBar = () => {
           </li>
           <li>
             <a
-              href="https://wa.me/543624712344"
+              href="https://wa.me/543624622844"
               className="icon brands fa-whatsapp"
               target="_blank"
             >
