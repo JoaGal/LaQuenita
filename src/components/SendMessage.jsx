@@ -44,7 +44,7 @@ export const SendMessage = () => {
         <section>
           <h3>Numero</h3>
           <p>
-            <a href="https://wa.me/543624712344" target="_blank">
+            <a href="https://wa.me/543624622844" target="_blank">
               +54 3624 712344
             </a>
           </p>
@@ -80,7 +80,7 @@ export const SendMessage = () => {
             </li>
             <li>
               <a
-                href="https://wa.me/543624712344"
+                href="https://wa.me/543624622844"
                 className="icon brands fa-whatsapp"
                 target="_blank"
               >
